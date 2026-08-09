@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.25,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -65,7 +81,24 @@
           "width": 0.2
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|87157410|103075000|50696c59-d39c-45e1-83c8-a8b4530cf472|9be6af0d-8aab-4c4c-a57f-5c09da81199e",
+          ""
+        ],
+        [
+          "hole_clearance|87157410|103075000|6627d021-3e34-4ea3-9746-dbdd2a3173f5|9be6af0d-8aab-4c4c-a57f-5c09da81199e",
+          ""
+        ],
+        [
+          "hole_clearance|87157410|96975000|014f7fcb-2e5c-4186-a297-fa24d90ff596|269a3835-64af-4982-9642-309c8b3a5d12",
+          ""
+        ],
+        [
+          "hole_clearance|87157410|96975000|a925250d-3fff-4c6b-87de-a6eee5d0db1a|269a3835-64af-4982-9642-309c8b3a5d12",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -542,6 +575,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -664,7 +698,7 @@
         "uuid": "a05ee626-957c-4ef0-9026-b02e3a0d433e"
       }
     ],
-    "used_designators": "SW5",
+    "used_designators": "J1,J5,SW5",
     "variants": []
   },
   "sheets": [

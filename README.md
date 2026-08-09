@@ -9,6 +9,7 @@ I have a decent amount of experience working with microcontrollers but never any
 ![alt text](FPGABOARD.png)
 ![alt text](image.png)
 ![alt text](image2.png)
+![alt text](schematic.png)
 
 # BOM
 
